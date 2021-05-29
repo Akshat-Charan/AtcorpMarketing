@@ -13,3 +13,6 @@ def services(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def compressor(request):
+    return render(request, 'compressor.html')
