@@ -2,6 +2,7 @@
 {% block title %}Compressor
 {% endblock title %}
 {% block body %}
+{% load static %}
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -15,7 +16,7 @@
 <div class="position-relative">
   <div class="position-absolute top-0 start-0">
     <div class="card" style="width: 18rem;">
-      <img src="/static/recipro.jpeg" class="card-img-top" alt="...">
+      <img src="{% static 'Recipro.jpeg' %}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Recipro</h5>
       </div>
@@ -27,7 +28,7 @@
     </div>
 
     <div class="card" style="width: 18rem; margin-top: 50px !important;">
-      <img src="/static/claw.jpg" class="card-img-top" alt="...">
+      <img src="{% static 'claw.jpg' %}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Claw</h5>
       </div>
@@ -38,7 +39,7 @@
   </div>
   <div class="position-absolute top-0 start-50 translate-middle-x">
     <div class="card" style="width: 18rem;">
-      <img src="/static/scroll.png" class="card-img-top" alt="..." style="height: 242px !important;">
+      <img src="{% static 'Scroll.png' %}" class="card-img-top" alt="..." style="height: 242px !important;">
       <div class="card-body">
         <h5 class="card-title">Scroll</h5>
       </div>
@@ -48,7 +49,7 @@
     </div>
   
     <div class="card" style="width: 18rem; margin-top: 50px !important;">
-      <img src="/static/Dryer.jpg" class="card-img-top" alt="...">
+      <img src="{% static 'Dryer.jpg' %}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Dryer</h5>
       </div>
@@ -61,7 +62,7 @@
 
   <div class="position-absolute top-0 end-0">
     <div class="card" style="width: 18rem;">
-      <img src="/static/screw.jpg" class="card-img-top" alt="...">
+      <img src="{% static 'Screw.jpg' %}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Screw</h5>
       </div>

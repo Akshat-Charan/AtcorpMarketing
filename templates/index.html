@@ -2,6 +2,7 @@
 {% block title %}Home
 {% endblock title %}
 {% block body %}
+{%load static%}
 
 <div class="container -fluid">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -12,13 +13,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="static/Compressor.webp" class="d-block w-100" alt="...">
+        <img src="{% static 'Compressor.webp' %}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="static/polishing.jpg" class="d-block w-100" alt="...">
+        <img src="{% static 'Polishing.jpg' %}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="static/granite.jpg" class="d-block w-100" alt="...">
+        <img src="{% static 'Granite.jpg' %}"" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
