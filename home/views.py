@@ -16,3 +16,10 @@ def contact(request):
 
 def compressor(request):
     return render(request, 'compressor.html')
+
+def recipro_oillubricatedtype(request):
+    return render(request, 'recipro_oillubricatedtype.html')
+
+def TLP(request):
+    return render(request, 'TLP.html')
+
