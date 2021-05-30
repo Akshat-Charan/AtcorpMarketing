@@ -11,5 +11,8 @@ urlpatterns = [
     path("compressor", views.compressor, name='compressor'),
     path("recipro_oillubricatedtype", views.recipro_oillubricatedtype, name='recipro_oillubricatedtype'),
     path("TLP", views.TLP, name='TLP'),
+    path("CLP", views.CLP, name='CLP'),
+    path("PLUE", views.PLUE, name='PLUE'),
+    path("TLUE", views.TLUE, name='TLUE'),
 
 ] 

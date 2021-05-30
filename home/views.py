@@ -23,3 +23,11 @@ def recipro_oillubricatedtype(request):
 def TLP(request):
     return render(request, 'TLP.html')
 
+def CLP(request):
+    return render(request, 'CLP.html')
+
+def PLUE(request):
+    return render(request, 'PLUE.html')
+
+def TLUE(request):
+    return render(request, 'TLUE.html')
