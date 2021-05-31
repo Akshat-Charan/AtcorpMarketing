@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% block title %}TFU/TFP Series
+{% endblock title %}
+{% block body %}
+{%load static %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/compressor">Compressor</a></li>
+    <li class="breadcrumb-item"><a href="/recipro_oilfreetype">Recipro-Oil Free Type</a></li>
+    <li class="breadcrumb-item active" aria-current="page">TFU/TFP Series</li>
+  </ol>
+</nav>
+
+<h1 class="text-center" style="background: #212529!important;color: wheat;">TFU/TFP Series</h1>
+<div class="container">
+  <div class="row row-cols-2">
+    <div class="col">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{% static 'TFP7.5.jpg' %}" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="{% static 'TFP3.7.jpg' %}" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="{% static 'TFP0.75.jpg' %}" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="{% static 'TFP2.2.jpg' %}" class="d-block w-100" alt="...">
+         </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+    </div>
+    <div class="col">
+     <div class="text">
+		<h2>The oil-free models provide high-quality clean air.</h2><div class="summary"><b>Applications</b><br>
+        ・Foods and beverages<br>
+        ・Tobacco<br>
+        ・Fiber industry<br>
+        ・Pulp<br>
+        ・Paper processing<br>
+        ・Leisure services<br>
+        ・Painting<br>
+        ・Others</div>
+	    </div>
+   </div>
+  </div>
+</div>
+
+<h1 class="text-center" style="background: #212529!important;color: wheat;">Features</h1>
+
+<div class="docset">
+	
+		
+				<div class="textset">
+					
+						<h3 class="title_s">The unique composite resin piston and totally-enclosed fan-cooled motor provide a long life and clean powerful air.</h3>
+					
+						<div class="text">
+							・The composite resin piston prevents seizure and scuffing.<br>
+                            ・The oil-free models provide high-quality clean air.<br>
+                            ・Recommended for foods, medicine, medical products, printing, painting and other applications that require clean air.<br>
+                            ・While oil-free, the models support the maximum pressure of 1.0 MPa, accommodating the needs of customers who require high pressures.<br>
+                            ・An anti-dust filter kit is featured as a standard component for preventing dust from entering the crank chamber. This helps prevent unexpected problems.
+						</div><!-- /text -->
+					
+				</div><!-- /textset -->
+			
+				<div class="textset">
+					
+						<h3 class="title_s">Easy control and safety</h3>
+					
+						<div class="text">
+							・The oil-free type does not require oil maintenance.<br>
+                            ・An anti-dust filter kit is featured as a standard component (TFP55 and higher) to protect the internal parts.
+						</div><!-- /text -->
+					
+				</div><!-- /textset -->
+			
+	</div>
+{%endblock body%}

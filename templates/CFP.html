@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% block title %}CFP Series
+{% endblock title %}
+{% block body %}
+{%load static %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/compressor">Compressor</a></li>
+    <li class="breadcrumb-item"><a href="/recipro_oilfreetype">Recipro-Oil Free Type</a></li>
+    <li class="breadcrumb-item active" aria-current="page">CFP Series</li>
+  </ol>
+</nav>
+
+<h1 class="text-center" style="background: #212529!important;color: wheat;">CFP Series</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{% static 'CFP5.5.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{% static 'CFP2.2.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                   <img src="{% static 'CFP7.5.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{% static 'CFP1.1.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                 </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                </button>
+        </div> 
+    </div>
+    <div class="col">
+     <div class="text">
+			<h2>The models of this series are highly durable and provide clean air.</h2><div class="summary"><b>Applications</b><br>
+            ・Foods and beverages<br>
+            ・Medicine<br>
+            ・Dental equipment<br>
+            ・Air source for machine tools<br>
+            ・Printing<br>
+            ・Painting, etc.</div>
+				
+		</div>
+   </div>
+  </div> 
+  <div class="row">
+   <div class="col">
+      <img src="{% static 'oilfree.jpg' %}" class="rounded float-end" alt="">
+    </div>
+  </div>
+</div>
+
+<h1 class="text-center" style="background: #212529!important;color: wheat;">Features</h1>
+
+<div class="text">
+							<b>The unique composite resin piston and totally-enclosed fan-cooled motor provide a long life and clean powerful air.</b><br>
+・Since a self-lubricating composite resin piston is used, there is no need for lubricating oil, resulting in excellent durability without seizure or scuffing. The oil-free models provide high-quality clean air.<br>
+・The two-stage compression system (for 5.5-kW and higher models) offers high pressures of up to 0.85 MPa.<br>
+・All the models feature a totally-enclosed fan-cooled motor. This prevents problems such as damage to bearings due to dust or other waste matter and insulation deterioration caused by moisture.<br>
+<br>
+<b>Easy control and safety</b><br>
+・The oil-free type does not require oil maintenance.<br>
+・Functions such as microcomputer control, remote control and multiple unit control are available as options or built-to-made models.<br>
+・Low noise levels from 52 dB(A) to 59 dB(A) are achieved.<br>
+<br>
+<b>Energy-efficient and economical operation</b><br>
+The automatic start-stop system using a pressure switch enables energy-efficient and economical operation (0.75 kW to 11 kW).
+						</div>
+{%endblock body%}

@@ -31,3 +31,21 @@ def PLUE(request):
 
 def TLUE(request):
     return render(request, 'TLUE.html')
+
+def recipro_oilfreetype(request):
+    return render(request, 'recipro_oilfreetype.html')
+
+def TFP(request):
+    return render(request, 'TFP.html')
+
+def CFP(request):
+    return render(request, 'CFP.html')
+
+def OFP(request):
+    return render(request, 'OFP.html')
+
+def PFUE(request):
+    return render(request, 'PFUE.html')
+
+def CFUE(request):
+    return render(request, 'CFUE.html')

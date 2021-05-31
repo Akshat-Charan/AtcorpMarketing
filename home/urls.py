@@ -14,5 +14,11 @@ urlpatterns = [
     path("CLP", views.CLP, name='CLP'),
     path("PLUE", views.PLUE, name='PLUE'),
     path("TLUE", views.TLUE, name='TLUE'),
+    path("recipro_oilfreetype", views.recipro_oilfreetype, name='recipro_oilfreetype'),
+    path("TFP", views.TFP, name='TFP'),
+    path("CFP", views.CFP, name='CFP'),
+    path("OFP", views.OFP, name='OFP'),
+    path("PFUE", views.PFUE, name='PFUE'),
+    path("CFUE", views.CFUE, name='CFUE'),
 
 ] 

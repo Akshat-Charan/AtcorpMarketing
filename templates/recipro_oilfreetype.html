@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}Oil Free Type
+{% endblock title %}
+{% block body %}
+{%load static%}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/compressor">Compressor</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Recipro-Oil Free Type</li>
+  </ol>
+</nav>
+
+<h1 class="text-center" style="background: #212529!important;color: wheat;">Recipro-Oil Free Type</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="set">
+                <div class="pic"><a href="/TFP"><img src="{% static 'TFP.jpg' %}" width="160" height="113" alt="TFU/TFP Series"></a></div>
+                <div class="text">
+                    <h3><a href="/TFP">TFU/TFP Series</a></h3>
+                    <p>The oil-free models provide high-quality clean air.</p>
+                </div><!-- /text -->
+            </div><!-- /set -->	
+        </div>
+        <div class="col">
+            <div class="set">
+                <div class="pic"><a href="/CFP"><img src="{% static 'CFP.jpg' %}" width="160" height="120" alt="CFP Series"></a></div>
+                <div class="text">
+                    <h3><a href="/CFp">CFP Series</a></h3>
+                    <p>The models of this series are highly durable and provide clean air.</p>
+                </div><!-- /text -->
+            </div><!-- /set -->
+        </div>
+        <div class="col">
+            <div class="set">
+                <div class="pic"><a href="/OFP"><img src="{% static 'OFP.gif' %}" width="160" height="121" alt="OFP Series"></a></div>
+                <div class="text">
+                    <h3><a href="/OFP">OFP Series</a></h3>
+                    <p>This compact package provides clean air for a variety of applications.</p>
+                </div><!-- /text -->
+            </div><!-- /set -->
+        </div>
+    </div>  
+    <div class="row">    
+        <div class="col">
+            <div class="set">
+                <div class="pic"><a href="/PFUE"><img src="{% static 'PFUE.jpg' %}" width="160" height="121" alt="PFU/PFUE-B Series"></a></div>
+                <div class="text">
+                    <h3><a href="/PFUE">PFU/PFUE-B Series</a></h3>
+                    <p>Useful in a wide range of outwork applications including building painting, construction and stone processing.</p>
+                </div><!-- /text -->
+            </div><!-- /set -->
+        </div>	
+        <div class="col">
+            <div class="set">
+                <div class="pic"><a href="/CFUE"><img src="{% static 'CFUE.jpg' %}" width="160" height="120" alt="CFUE Series"></a></div>
+                <div class="text">
+                    <h3><a href="/CFUE">CFUE Series</a></h3>
+                    <p>・Useful in a wide range of outwork applications including building painting, construction and stone processing.<br>
+                    ・The product combines quietness, cleanliness and power of action into a single unit.</p>
+                </div><!-- /text -->
+            </div><!-- /set -->    
+        </div>
+        <div class="col">
+        </div>
+    </div>    
+</div>
+
+{%endblock body%}

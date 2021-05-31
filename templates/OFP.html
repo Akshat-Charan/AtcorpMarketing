@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}OFP Series
+{% endblock title %}
+{% block body %}
+{%load static %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/compressor">Compressor</a></li>
+    <li class="breadcrumb-item"><a href="/recipro_oilfreetype">Recipro-Oil Free Type</a></li>
+    <li class="breadcrumb-item active" aria-current="page">OFP Series</li>
+  </ol>
+</nav>
+
+<h1 class="text-center" style="background: #212529!important;color: wheat;">OFP Series</h1>
+<div class="container">
+  <div class="row row-cols-2">
+        <div class="col">
+        <img src="{% static 'OFP041.jpg' %}" class="img-fluid" alt="...">
+        </div>
+        <div class="text">
+				<h2>This compact package provides clean air for a variety of applications.</h2><div class="summary"><b>Applications</b><br>
+                ・Suitable for a variety of applications that require high-quality air.<br>
+                ・Nailing and maintenance painting (package type)<br>
+                <br>
+                (Note) OFP-041C or OFP-071C must be put on its side when used. They cannot be used in the erect position.</div>
+			</div>
+   </div>
+</div>
+<h1 class="text-center" style="background: #212529!important;color: wheat;">Features</h1>
+
+<div class="text">
+							<b>Compact</b><br>
+Special light alloy is used in the main unit of the compressor, making it significantly lighter and more compact.<br>
+<br>
+<b>Composite resin piston</b><br>
+A composite resin piston has been adopted for the first time in the world, resulting in considerable improvements in reliability and durability.<br>
+<br>
+<b>Handy and compact</b><br>
+・The product can be used casually because it is light and compact and operates on 100 V. Since it is oil-free, it is easy to maintain.<br>
+・Suitable for nailing, maintenance painting, etc.<br>
+・The product features a pressure reducing valve as a standard component and can readily be used.<br>
+<br>
+<b>Tank-mounted type</b><br>
+・Since the product is oil-free, it is best suited to applications that require high-quality compressed air.<br>
+・A highly durable composite resin piston is used, eliminating the need to worry about seizure or scuffing.<br>
+・Since the product operates on single-phase 100 V, it can readily be used with a residential power supply. 
+						</div>
+{%endblock body%}
